@@ -103,6 +103,7 @@ export function BurgerModel() {
     return () => {
       cancelAnimationFrame(animationFrame)
       window.removeEventListener('resize', resize)
+      dracoLoader.dispose()
       renderer.dispose()
       mount.removeChild(renderer.domElement)
       scene.traverse((object) => {

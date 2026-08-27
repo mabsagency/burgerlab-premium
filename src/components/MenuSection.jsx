@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion'
 import { useCart } from '../contexts/CartContext'
 import { useState } from 'react'
+import classicBurger from '../../assets/b1.webp'
+import spicyBurger from '../../assets/b2.jpg'
+import champetreBurger from '../../assets/b3.jpg'
+import veggieBurger from '../../assets/b4.webp'
 
 export const MenuSection = () => {
   const { addToCart } = useCart()
@@ -12,7 +16,7 @@ export const MenuSection = () => {
       name: 'LE CLASSIC HOUSE',
       description: 'Boeuf Black Angus, cheddar fondant, salade, tomate, oignons rouges, sauce maison.',
       price: 14.90,
-      image: '/assets/b1.webp',
+      image: classicBurger,
       isImage: true,
       rating: 5,
     },
@@ -21,7 +25,7 @@ export const MenuSection = () => {
       name: 'LE SPICY LOVER',
       description: 'Poulet croustillant, cheddar, oignons, tomate séchée, sauce épicée, laitue croquante.',
       price: 13.90,
-      image: '/assets/b2.jpg',
+      image: spicyBurger,
       isImage: true,
       rating: 5,
     },
@@ -30,7 +34,7 @@ export const MenuSection = () => {
       name: 'LE CHAMPÊTRE',
       description: 'Boeuf à griller, fromage de chèvre, moutarde, tomate séchée, sauce moutarde-ail.',
       price: 15.90,
-      image: '/assets/b3.jpg',
+      image: champetreBurger,
       isImage: true,
       rating: 5,
     },
@@ -39,7 +43,7 @@ export const MenuSection = () => {
       name: 'LE VÉGÉ GOURMAND',
       description: 'Galette de légumes rôtis, cheddar, houmous, tomate, roquette, sauce vegan à l\'ail noir.',
       price: 12.90,
-      image: '/assets/b4.webp',
+      image: veggieBurger,
       isImage: true,
       rating: 5,
     },

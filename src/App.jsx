@@ -1,6 +1,11 @@
 import logo from '../assets/burger.png'
 import navBurger from '../assets/burgernav.png'
 import burgerImg from '../assets/burger2.png'
+import burgerVideo from '../assets/burger.mp4'
+import classicBurger from '../assets/b1.webp'
+import spicyBurger from '../assets/b2.jpg'
+import champetreBurger from '../assets/b3.jpg'
+import veggieBurger from '../assets/b4.webp'
 import { BurgerModel } from './components/BurgerModel'
 import {
   FaInstagram,
@@ -41,10 +46,10 @@ const features = [
 ]
 
 const burgers = [
-  ['Le Classic House', 'Steak Black Angus, cheddar fondant, salade, tomates, oignons rouges, sauce maison.', '14,90 €', '★', '/assets/b1.webp'],
-  ['Le Spicy Lover', 'Poulet croustillant, cheddar, jalapeños, sauce spicy, salade croquante.', '13,90 €', '♨', '/assets/b2.jpg'],
-  ['Le Champêtre', 'Steak Black Angus, fromage de chèvre, roquette, tomates séchées, sauce miel moutarde.', '15,90 €', '▰', '/assets/b3.jpg'],
-  ['Le Végé Gourmand', 'Galette de légumes rôtis, cheddar, guacamole, salade, oignons rouges.', '12,90 €', '▰', '/assets/b4.webp'],
+  ['Le Classic House', 'Steak Black Angus, cheddar fondant, salade, tomates, oignons rouges, sauce maison.', '14,90 €', '★', classicBurger],
+  ['Le Spicy Lover', 'Poulet croustillant, cheddar, jalapeños, sauce spicy, salade croquante.', '13,90 €', '♨', spicyBurger],
+  ['Le Champêtre', 'Steak Black Angus, fromage de chèvre, roquette, tomates séchées, sauce miel moutarde.', '15,90 €', '▰', champetreBurger],
+  ['Le Végé Gourmand', 'Galette de légumes rôtis, cheddar, guacamole, salade, oignons rouges.', '12,90 €', '▰', veggieBurger],
 ]
 
 const testimonials = [
@@ -132,7 +137,7 @@ function FeatureStrip() {
 function BurgerShowcase() {
   return (
     <section className="burger-showcase">
-      <video src="/assets/burger.mp4" className="showcase-image" autoPlay muted playsInline />
+      <video src={burgerVideo} className="showcase-image" autoPlay loop muted playsInline preload="auto" />
     </section>
   )
 }
