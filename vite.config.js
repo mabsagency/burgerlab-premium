@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/burgerlab-premium/',
+  base: process.env.VERCEL ? '/' : '/burgerlab-premium/',
   plugins: [react()],
   server: {
     port: 5173,
