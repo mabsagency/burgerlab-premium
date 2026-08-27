@@ -1,0 +1,35 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top bun -->
+  <ellipse cx="50" cy="30" rx="35" ry="18" fill="#D4A574" stroke="#8B6F47" stroke-width="1"/>
+  <path d="M 20 30 Q 20 20 50 18 Q 80 20 80 30" fill="#E8C8A0" stroke="none"/>
+  
+  <!-- Sesame seeds -->
+  <circle cx="35" cy="22" r="2" fill="#F4E4C1"/>
+  <circle cx="50" cy="18" r="2" fill="#F4E4C1"/>
+  <circle cx="65" cy="23" r="2" fill="#F4E4C1"/>
+  <circle cx="42" cy="27" r="1.5" fill="#F4E4C1"/>
+  <circle cx="58" cy="26" r="1.5" fill="#F4E4C1"/>
+  
+  <!-- Lettuce -->
+  <path d="M 20 35 Q 15 35 12 40 L 12 45 L 88 45 L 88 40 Q 85 35 80 35 Z" fill="#7CB342" opacity="0.8"/>
+  <path d="M 20 36 Q 18 37 16 39" stroke="#7CB342" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 80 36 Q 82 37 84 39" stroke="#7CB342" stroke-width="0.5" fill="none" opacity="0.5"/>
+  
+  <!-- Patty -->
+  <rect x="15" y="43" width="70" height="12" fill="#6B4423" rx="2"/>
+  <line x1="25" y1="43" x2="25" y2="55" stroke="#5A3A1F" stroke-width="0.5" opacity="0.5"/>
+  <line x1="50" y1="43" x2="50" y2="55" stroke="#5A3A1F" stroke-width="0.5" opacity="0.5"/>
+  <line x1="75" y1="43" x2="75" y2="55" stroke="#5A3A1F" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Cheese -->
+  <rect x="18" y="53" width="64" height="8" fill="#FFD700" rx="1"/>
+  <path d="M 22 57 L 78 57" stroke="#F0C800" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Tomato -->
+  <ellipse cx="50" cy="64" rx="28" ry="8" fill="#E74C3C"/>
+  <line x1="30" y1="64" x2="70" y2="64" stroke="#C0392B" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Bottom bun -->
+  <ellipse cx="50" cy="73" rx="35" ry="16" fill="#D4A574" stroke="#8B6F47" stroke-width="1"/>
+  <path d="M 20 73 Q 20 80 50 82 Q 80 80 80 73" fill="#E8C8A0"/>
+</svg>
